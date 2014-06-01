@@ -1,10 +1,10 @@
+#include "spark-parse/spark-parse.h"
+
 // This provides a variable, colour, a function to set the variable from a hex
 // string, set_colour, and programs the RGB LED on the spark core to reflect
 // the RRGGBB value last programmed.  The default on reboot is black.
 
 // BEWARE: British spelling ahead!
-
-#include "spark-parse.h"
 
 static int colour = 0;
 
