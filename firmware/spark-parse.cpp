@@ -1,3 +1,4 @@
+#include "spark-parse/spark-parse.h"
 
 static const String hex_digits = String("0123456789ABCDEF");
 // Turn a hex string into a number.  NB: string has to be in uppercase.
